@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200630004726_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200630004726_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200630005057_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200630005057_MigracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200630015607_AdicionadoDataPlantioArvore.cs" />
+    <Compile Remove="Migrations\20200630015607_AdicionadoDataPlantioArvore.Designer.cs" />
+    <Compile Remove="Migrations\20200630020758_grupoArvoreColheita.cs" />
+    <Compile Remove="Migrations\20200630020758_grupoArvoreColheita.Designer.cs" />
+    <Compile Remove="Migrations\20200630055829_migracaoInicial.cs" />
+    <Compile Remove="Migrations\20200630055829_migracaoInicial.Designer.cs" />
+    <Compile Remove="Migrations\20200701061259_GrupoArvorePodeSerNulo.cs" />
+    <Compile Remove="Migrations\20200701061259_GrupoArvorePodeSerNulo.Designer.cs" />
+    <Compile Remove="Migrations\20200701062150_MigracaoInicial.cs" />
+    <Compile Remove="Migrations\20200701062150_MigracaoInicial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciaPomar.Core\GerenciaPomar.Core.csproj" />
+  </ItemGroup>
+
+</Project>
