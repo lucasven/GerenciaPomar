@@ -1,3 +1,12 @@
+# Manage Orchard
+
+*Study project
+
+Managament of a Orchard, with the possibility to insert type of species, trees, and group of trees.
+
+On the backend I've utilized .NET CORE 3.1, with a SQL SERVER database, unit tests using XUnit.
+On the frontend I used React with typescript. Right now the project has no style, I intend to add material-UI soon.
+
 # GerenciaPomar
 
 Projeto para estudo
