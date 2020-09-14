@@ -1,6 +1,6 @@
 # Manage Orchard
 
-*Study project
+Study project
 
 Managament of a Orchard, with the possibility to insert type of species, trees, and group of trees.
 
